@@ -1,0 +1,18 @@
+{
+    "model": "RandomForestRegressor",
+    "number_of_floors": 11,
+    "historical_days": 90,
+    "simulation_interval": "15 minutes",
+    "prediction_horizon": "1 hour (4 intervals)",
+    "training_percentage": 80,
+    "testing_percentage": 20,
+    "MAE_people": 1.6633489461358313,
+    "RMSE_people": 3.1093460384597345,
+    "R_squared": 0.9366885032531623,
+    "training_rows": 75152,
+    "testing_rows": 18788,
+    "training_start": "2026-08-04 00:00:00",
+    "training_end": "2026-10-14 03:45:00",
+    "testing_start": "2026-10-14 04:00:00",
+    "testing_end": "2026-10-31 22:45:00"
+}
