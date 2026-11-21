@@ -1,0 +1,2 @@
+scenario,total_kwh,avg_weekday_kwh,kwh_per_m2_per_day,peak_kw_15min,peak_day,peak_time,peak_w_per_m2,comfort_pct
+summer,7747.508891460664,1549.5017782921327,0.3353899953013274,180.08365639738028,Wednesday,16:30,38.97914640635937,99.88995754734792

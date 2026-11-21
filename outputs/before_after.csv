@@ -1,0 +1,8 @@
+scenario,who,week_kwh,typical_weekday_kwh,peak_kw,peak_time,comfort_pct,comfort_violations_floor_intervals,degree_hours_above_26
+summer,Fixed schedule (baseline),8103.2,1482.3,211.7,Tuesday 07:45,99.8,16,2.6
+summer,Tower Brain,7747.5,1422.2,180.1,Wednesday 16:30,99.9,11,0.0
+summer,Tuned timer (Person 1),7723.8,1415.5,210.9,Friday 08:00,96.8,169,59.4
+heatwave,Fixed schedule (baseline),9711.6,1777.7,232.3,Monday 08:45,98.4,71,29.9
+heatwave,Tower Brain,9386.2,1716.9,212.1,Wednesday 16:30,99.9,13,0.0
+november,Fixed schedule (baseline),4622.6,846.9,175.6,Monday 04:00,100.0,0,0.0
+november,Tower Brain,4208.2,781.1,119.9,Monday 14:30,100.0,0,0.0

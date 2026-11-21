@@ -1,0 +1,5 @@
+scenario,baseline,week_kwh,typical_weekday_kwh,kwh_per_m2_typical_weekday,peak_kw,peak_w_per_m2,peak_day,peak_time,comfort_pct
+summer,fixed_schedule,8103,1482,0.321,211.7,45.8,Tuesday,07:45,99.8
+summer,tuned_timer,7724,1415,0.306,210.9,45.7,Friday,08:00,96.8
+heatwave,fixed_schedule,9712,1778,0.385,232.3,50.3,Monday,08:45,98.4
+november,fixed_schedule,4623,847,0.183,175.6,38.0,Monday,04:00,100.0

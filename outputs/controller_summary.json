@@ -1,0 +1,103 @@
+{
+  "scenario": "summer",
+  "kpis": {
+    "scenario": "summer",
+    "total_kwh": 7747.508891460664,
+    "avg_weekday_kwh": 1549.5017782921327,
+    "kwh_per_m2_per_day": 0.3353899953013274,
+    "peak_kw_15min": 180.08365639738028,
+    "peak_day": "Wednesday",
+    "peak_time": "16:30",
+    "peak_w_per_m2": 38.97914640635937,
+    "comfort_pct": 99.88995754734792
+  },
+  "before_after": [
+    {
+      "scenario": "summer",
+      "who": "Fixed schedule (baseline)",
+      "week_kwh": 8103.2,
+      "typical_weekday_kwh": 1482.3,
+      "peak_kw": 211.7,
+      "peak_time": "Tuesday 07:45",
+      "comfort_pct": 99.8,
+      "comfort_violations_floor_intervals": 16,
+      "degree_hours_above_26": 2.6
+    },
+    {
+      "scenario": "summer",
+      "who": "Tower Brain",
+      "week_kwh": 7747.5,
+      "typical_weekday_kwh": 1422.2,
+      "peak_kw": 180.1,
+      "peak_time": "Wednesday 16:30",
+      "comfort_pct": 99.9,
+      "comfort_violations_floor_intervals": 11,
+      "degree_hours_above_26": 0.0
+    },
+    {
+      "scenario": "summer",
+      "who": "Tuned timer (Person 1)",
+      "week_kwh": 7723.8,
+      "typical_weekday_kwh": 1415.5,
+      "peak_kw": 210.9,
+      "peak_time": "Friday 08:00",
+      "comfort_pct": 96.8,
+      "comfort_violations_floor_intervals": 169,
+      "degree_hours_above_26": 59.4
+    },
+    {
+      "scenario": "heatwave",
+      "who": "Fixed schedule (baseline)",
+      "week_kwh": 9711.6,
+      "typical_weekday_kwh": 1777.7,
+      "peak_kw": 232.3,
+      "peak_time": "Monday 08:45",
+      "comfort_pct": 98.4,
+      "comfort_violations_floor_intervals": 71,
+      "degree_hours_above_26": 29.9
+    },
+    {
+      "scenario": "heatwave",
+      "who": "Tower Brain",
+      "week_kwh": 9386.2,
+      "typical_weekday_kwh": 1716.9,
+      "peak_kw": 212.1,
+      "peak_time": "Wednesday 16:30",
+      "comfort_pct": 99.9,
+      "comfort_violations_floor_intervals": 13,
+      "degree_hours_above_26": 0.0
+    },
+    {
+      "scenario": "november",
+      "who": "Fixed schedule (baseline)",
+      "week_kwh": 4622.6,
+      "typical_weekday_kwh": 846.9,
+      "peak_kw": 175.6,
+      "peak_time": "Monday 04:00",
+      "comfort_pct": 100.0,
+      "comfort_violations_floor_intervals": 0,
+      "degree_hours_above_26": 0.0
+    },
+    {
+      "scenario": "november",
+      "who": "Tower Brain",
+      "week_kwh": 4208.2,
+      "typical_weekday_kwh": 781.1,
+      "peak_kw": 119.9,
+      "peak_time": "Monday 14:30",
+      "comfort_pct": 100.0,
+      "comfort_violations_floor_intervals": 0,
+      "degree_hours_above_26": 0.0
+    }
+  ],
+  "prediction_source": "live_model",
+  "prediction_file": "random_forest_model.joblib",
+  "decisions_by_source": {
+    "model": 3036,
+    "fallback": 44,
+    "mixed": 2200
+  },
+  "cap_frac": 0.7,
+  "seed": 1,
+  "simulated": true
+}
